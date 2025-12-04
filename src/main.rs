@@ -1,3 +1,4 @@
+mod util;
 mod day01;
 mod day02;
 mod day03;
@@ -14,7 +15,6 @@ mod day12;
 fn main() {
     println!("Advent of Code 2025");
     println!("===================\n");
-    
     day01::solve();
     day02::solve();
     day03::solve();
