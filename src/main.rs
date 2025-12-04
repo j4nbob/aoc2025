@@ -15,7 +15,7 @@ mod day12;
 
 fn main() {
     println!("Advent of Code 2025, j4nbob");
-    println!("===========================\n");
+    println!("===========================");
     
     if true {
         day01::solve();

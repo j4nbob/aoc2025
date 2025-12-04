@@ -1,4 +1,5 @@
 /target
+/inputz
 Cargo.lock
 **/*.rs.bk
 *.pdb
