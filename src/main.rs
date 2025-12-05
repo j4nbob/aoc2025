@@ -19,6 +19,7 @@ fn main() {
     
     if true {
         day01::solve();
+        day02::solve();
     }
 
     if false{
