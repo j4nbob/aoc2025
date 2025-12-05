@@ -78,7 +78,7 @@ fn second_add_invalids(_begin: i64, _end: i64) -> i64 {
 
 
 fn part1() -> i64 {
-    let input = util::read_input("inputz/day02_part1.txt");
+    let input = util::read_input("inputs/day02_part1.txt");
     let parts: Vec<&str> = input.split(',').collect();
     let mut invalids = 0;   
     for part in parts {
@@ -93,7 +93,7 @@ fn part1() -> i64 {
 }
 
 fn part2() -> i64 {
-    let input = util::read_input("inputz/day02_part1.txt");
+    let input = util::read_input("inputs/day02_part1.txt");
     let parts: Vec<&str> = input.split(',').collect();
     let mut invalids = 0;   
     for part in parts {
